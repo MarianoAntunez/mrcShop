@@ -1,0 +1,396 @@
+@media screen and (max-width: 600px) {
+  header {
+    .nav {
+      padding: 10px 10px;
+      .comandos {
+        display: none;
+      }
+      button {
+        i {
+          font-size: 35px;
+          color: white;
+        }
+      }
+      .contador1 {
+        transform: scaleX(-1);
+      }
+    }
+    img {
+      width: 250px;
+    }
+    .logo-cart {
+      a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        right: 0pc;
+        transform: scaleX(-1) !important;
+      }
+      i {
+        background-color: transparent !important;
+        color: black;
+        border-radius: 3pc;
+        transform: scaleX(-1);
+      }
+    }
+  }
+  .offcanvas {
+    width: 220px !important;
+    background-color: #c40000;
+    .offcanvas-header {
+      justify-content: end;
+      button {
+        background: none;
+        border: none;
+        i {
+          font-size: 40px;
+          color: white;
+        }
+      }
+    }
+    .comandosResp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+      text-align: center;
+      a {
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
+  }
+  .section-1 {
+    aside {
+      display: none;
+    }
+    .filtros {
+      h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      .filtro {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        button {
+          background-color: grey;
+          border-color: grey;
+        }
+      }
+      .cent {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .button1 {
+        background-color: rgba(128, 128, 128, 0.112);
+        letter-spacing: 0;
+      }
+      .button1.active {
+        background-color: grey;
+        border-color: grey;
+        color: white;
+      }
+      .button1:hover {
+        background-color: grey;
+        border-color: grey;
+        color: white;
+      }
+      .button2 {
+        background-color: rgba(128, 128, 128, 0.112);
+        letter-spacing: 0;
+      }
+      .button2.active {
+        background-color: grey;
+        border-color: grey;
+        color: white;
+      }
+      .button2:hover {
+        background-color: grey;
+        border-color: grey;
+        color: white;
+      }
+    }
+    .filtro {
+      display: flex;
+      justify-content: space-around;
+    }
+    .mt-4 {
+      margin-top: 0 !important;
+    }
+    .mercado {
+      padding: 5px !important;
+    }
+    .t2 {
+      display: block;
+    }
+    .t1 {
+      display: none;
+    }
+    .box-article {
+      align-items: center;
+      height: 400px;
+      img {
+        width: 15pc;
+      }
+      .title {
+        font-size: 16px;
+      }
+      .price {
+        font-size: 30px;
+      }
+      button {
+        font-size: 20px;
+      }
+      .producto-agregar {
+        margin-right: 15px !important;
+      }
+    }
+  }
+
+  .section-2 {
+    display: none;
+  }
+
+  .section-2-1 {
+    margin-top: 25px;
+    margin-bottom: 65px;
+    .title-1 {
+      font-family: "Bebas Neue", sans-serif;
+      text-align: center;
+      margin-right: 0;
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+    }
+    .contBox {
+      gap: 30px;
+    }
+    .box {
+      text-align: center;
+      img {
+        width: 150px;
+        border-radius: 100px;
+        -webkit-box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.75);
+      }
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 8px;
+      }
+      button {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding: 5px 10px;
+      }
+    }
+  }
+
+  .section-3 {
+    .mygap {
+      flex-direction: column !important;
+      .box-1 {
+        img {
+          width: 100%;
+        }
+        .contentBox {
+          margin-bottom: -165px;
+          p {
+            font-size: 45px;
+          }
+        }
+      }
+      .box-2 {
+        img {
+          width: 100%;
+        }
+        .contentBox {
+          bottom: 190px;
+          margin-bottom: -140px;
+          p {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+    .box-3 {
+      img {
+        width: 100%;
+      }
+      .contentBox {
+        margin-left: 0;
+        bottom: 130px;
+        p {
+          font-size: 30px;
+        }
+        small {
+          font-size: 20px;
+        }
+        button {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+
+  .section-4 {
+    .box-4 {
+      margin: 0;
+      padding: 5px 0 5px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .section-4-1 {
+    .servicios {
+      gap: 10px;
+      .servicio {
+        p {
+          letter-spacing: 1px;
+          font-size: 15px;
+        }
+      }
+      button {
+        padding: 5px 5px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .title-2 {
+    margin: 20px 0 0;
+  }
+
+  .sectionCart {
+    padding-top: 1pc !important;
+    .r1 {
+      display: none;
+    }
+    .r2 {
+      text-align: center;
+    }
+    .button4 {
+      width: 270px !important;
+      font-size: 25px !important;
+    }
+    .carrito-acciones-izquierda {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    .carrito-acciones
+      .carrito-acciones-derecha
+      .carrito-acciones-comprar
+      .icon {
+      height: 3.2em;
+    }
+  }
+
+  .section-5 .box-1 .ubications {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+  }
+  .section-5 {
+    .box-1 {
+      margin: 0 !important;
+      .title {
+        text-align: center;
+      }
+      .ubications {
+        flex-direction: column !important;
+        gap: 0 !important;
+      }
+    }
+    .ubicacion-1 {
+      text-align: center;
+      margin: 0;
+    }
+    .ubicacion-2 {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  .box-2 {
+    .title {
+      margin-top: 30px !important;
+    }
+  }
+  .footer {
+    margin-bottom: 20px;
+  }
+  footer {
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .footer-paginacion {
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 480px) {
+  header {
+    .nav {
+      button {
+        display: none;
+      }
+    }
+    img {
+      width: 15pc;
+      position: relative;
+      left: 12pc;
+    }
+    .logo-cart {
+      a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        right: 10pc;
+      }
+      #cart-link {
+        position: relative;
+        transition: transform 0.3s;
+        transform: translate(0, 0) scaleX(-1);
+      }
+      i {
+        background-color: #d60000;
+        padding: 25px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .section-1 {
+    .t2 {
+      display: none;
+    }
+    aside {
+      .button1,
+      .button2 {
+        width: 141px;
+      }
+    }
+    .filtros {
+      display: none;
+    }
+  }
+  .section-2-1 {
+    display: none;
+  }
+  .sectionCart {
+    .r2 {
+      display: none;
+    }
+  }
+}

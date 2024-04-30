@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MRC | Indumentaria</title>
+  <link rel="icon" href="../img/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Baloo+Tammudu+2&family=Crimson+Text&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+
+<body>
+  <div class="loader"></div>
+  <a href="https://wa.me/5493813425806/?text=Hola Moto Repuestos Cordoba, mi consulta es:...." target="_blank">
+    <div class="wp"><i class="fa-brands fa-whatsapp"></i></div>
+  </a>
+  <header>
+    <div class="nav">
+      <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+      <img src="../img/logo2 (2).png" alt="log">
+      <div class="comandos">
+        <a href="../index.html">INICIO</a>
+        <a href="../index.html">CONTACTO</a>
+        <a href="../index.html">SUCURSALES</a>
+        <a href="../index.html">QUIENES SOMOS</a>
+      </div>
+      <div class="logo-cart">
+        <a href="">
+          <i class="fa-solid fa-cart-shopping" id="cart-link">
+            <span class="contador1" id="contador">0</span>
+          </i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="menuResp">
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="comandosResp">
+          <a href="../index.html">INICIO</a>
+          <a href="../pages/repuestos.html">REPUESTOS</a>
+          <a href="../pages/lubricantes.html">LUBRICANTES</a>
+          <a href="../pages/indumentaria.html">INDUMENTARIA</a>
+          <a href="../pages/accesorios.html">ACCESORIOS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-2">
+          <h2>//Productos disponibles | indument</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-1">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+          <form class="form-inline buscador">
+            <input id="formulario" class="form-control mr-sm-2" placeholder="Buscar articulo" type="text" />
+            <button id="boton-buscar" class="btn btn-outline-primary">
+              Buscar
+            </button>
+          </form>
+          <div class="row mercado">
+            <div class="col-sm-2 media-aside">
+              <div class="cent-aside">
+                <aside>
+                  <hr>
+                  <h6>CATEGORIAS:</h6>
+                  <div class="text-center cent">
+                    <div class="categorias">
+                      <button type="button" id="cascos" class="btn button1 boton-categorias">Cascos</button>
+                    </div>
+                    <div class="categorias">
+                      <button type="button" id="guantes" class="btn boton-categorias button1">Guantes</button>
+                    </div>
+                    <div class="categorias">
+                      <button type="button" id="antiparras" class="btn boton-categorias button1">antiparras</button>
+                    </div>
+                  </div>
+                </aside>
+                <aside>
+                  <hr>
+                  <h6></h6>
+                  <div class="text-center cent">
+                  </div>
+                </aside>
+
+                <!-- RESPONSIVE -->
+                <div class="filtros">
+                  <h1>Aplicar filtros:</h1>
+                  <p class="filtro">
+                    <button class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1"
+                      role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                      CATEGORIAS
+                    </button>
+                  </p>
+                  <div class="row mb-2">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                          <div class="text-center cent">
+                            <div class="categorias">
+                              <button type="button" id="cascos" class="btn button1 boton-categorias">Cascos</button>
+                            </div>
+                            <div class="categorias">
+                              <button type="button" id="guantes" class="btn boton-categorias button1">Guantes</button>
+                            </div>
+                            <div class="categorias">
+                              <button type="button" id="antiparras"
+                                class="btn boton-categorias button1">antiparras</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="d-flex justify-content-center align-items-center mt-4">
+                <button id="todos" type="button" class="btn btn-danger boton-categorias button3">Quitar
+                  filtro</button>
+              </div>
+            </div>
+            <div class="col-sm-12 t2">
+              <hr>
+            </div>
+            <div class="col-sm-10">
+              <div class="container mt-4">
+                <div id="contenedor-productos" class="row">
+                  <!-- PRODUCTOS -->
+                  <div id="loader" class="loader-container">
+                    <div class="spinner-border text-primary" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="resultado-busqueda"></div>
+              </div>
+              <div class="footer-paginacion">
+                <p>Pagina:</p>
+                <div id="paginacion"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9bb7853fdd.js" crossorigin="anonymous"></script>
+
+  <script type="module" src="../js/ind.js"></script>
+  <script src="../js/utilities.js"></script>
+</body>
+
+</html>
